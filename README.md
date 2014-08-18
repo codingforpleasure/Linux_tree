@@ -1,7 +1,8 @@
 Linux_tree
 ==========
 
-For debugging my kernel, I have recompiled the kernel with FTRACE support (function tracer)
+For debugging my kernel, I have recompiled the kernel with FTRACE support (function tracer).
+
 You should enable the following flags:
 
 * CONFIG_FTRACE=y
