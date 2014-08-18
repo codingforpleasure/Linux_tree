@@ -2,7 +2,7 @@ Linux_tree
 ==========
 
 For debugging my kernel, I have recompiled the kernel with FTRACE support (function tracer)
-here are the supported flags:
+You should enable the following flags:
 
 * CONFIG_FTRACE=y
 * CONFIG_HAVE_DYNAMIC_FTRACE=y
