@@ -11,7 +11,8 @@ Linux_tree
 * CONFIG_HAVE_FUNCTION_GRAPH_TRACER=y
 * CONFIG_STACKTRACE=y
 
-In the kernel tree the ftrace is well explained, you should take a peek: 
+In the kernel tree the ftrace is well explained, you should take a peek:
+
     https://www.kernel.org/doc/Documentation/trace/ftrace.txt
 
 2) In case you get a crash, which can be quite often for a novice kernel developer,
