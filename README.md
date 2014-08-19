@@ -17,6 +17,7 @@ https://www.kernel.org/doc/Documentation/trace/ftrace.txt
 
 ###### step 1:
 Ftrace holds a collection of traces on your system, choose among them:
+
 to view all traces type use cat /sys/kernel/debug/tracing/available_events .
 
 ###### step 2:
