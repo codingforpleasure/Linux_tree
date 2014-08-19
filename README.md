@@ -29,17 +29,17 @@ The list of events are in the file available_events (On my system there are 941 
 See for yourself via: cat /sys/kernel/debug/tracing/available_events
 you can easily locate the event since the events are sorted by catergories i.e:
 
-kmem
-syscalls
-skb
-net
-napi
-block
-ext4
-ext3
-power
-signal
-timer
+- [ ]			kmem
+- [ ]			syscalls
+- [ ]			skb
+- [ ]			net
+- [ ]			napi
+- [ ]			block
+- [ ]			ext4
+- [ ]			ext3
+- [ ]			power
+- [ ]			signal
+- [ ]			timer
 
 
 
