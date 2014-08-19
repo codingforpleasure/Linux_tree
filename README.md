@@ -18,7 +18,7 @@ https://www.kernel.org/doc/Documentation/trace/ftrace.txt
 ###### step 1:
 Ftrace offers a collection of traces in the kernel, choose among them:
 
-to view all traces type use cat /sys/kernel/debug/tracing/available_events .
+to view all traces type use **cat /sys/kernel/debug/tracing/available_events** .
 
 ###### step 2:
 
@@ -26,7 +26,7 @@ Ftrace holds a long list of events, you can configure easily which event you wou
 
 The list of events are in the file available_events (On my system there are 941 events types! ). 
 
-See for yourself via: cat /sys/kernel/debug/tracing/available_events
+See for yourself via: **cat /sys/kernel/debug/tracing/available_events**
 you can easily locate the event since the events are sorted by catergories i.e:
 
 - [ ]			kmem
