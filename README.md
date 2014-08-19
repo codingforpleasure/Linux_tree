@@ -27,7 +27,12 @@ Ftrace holds a long list of events, you can configure easily which event you wou
 The list of events are in the file available_events. 
 
 See for yourself via: cat /sys/kernel/debug/tracing/available_events
-those events are sorted by catergory
+those events are sorted by catergory.
+
+
+
+
+
 
 
 
