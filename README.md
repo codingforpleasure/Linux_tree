@@ -56,7 +56,7 @@ you can easily locate the event since the events are sorted by catergories i.e:
    you can easily use a **kernel dump** for finding the origin for this crash. 
    all you have to do is to install "linux-crashdump" application on your distribution.
    
-   So now on every boot the kernel would reserve a sufficinent memory area for the kdump kernel.
+   So now on every boot the kernel would reserve a sufficient memory area for the kdump kernel.
    next time you would recieve a kernel crash, don't panic the crash dump would be stored in 
    **/var/crash** folder.
 
