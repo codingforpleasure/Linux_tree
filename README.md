@@ -34,12 +34,15 @@ you can easily locate the event since the events are sorted by catergories i.e:
 - [ ]			skb
 - [ ]			net
 - [ ]			napi
+- [ ]       sock
+- [ ]       udp
 - [ ]			block
 - [ ]			ext4
 - [ ]			ext3
 - [ ]			power
 - [ ]			signal
 - [ ]			timer
+- [ ]			gpio
 
 
 
