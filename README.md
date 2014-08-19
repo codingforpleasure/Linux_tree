@@ -16,6 +16,10 @@ In the kernel tree the ftrace is well explained, you should take a peek:
 https://www.kernel.org/doc/Documentation/trace/ftrace.txt
 
 ###### step 1:
+Ftrace holds a collection of traces on your system, choose among them:
+to view all traces type use cat /sys/kernel/debug/tracing/available_events .
+
+###### step 2:
 
 Ftrace holds a long list of events, you can configure easily which event you would like to trace.
 the list of events are in the file available_events. 
