@@ -11,12 +11,12 @@ Linux_tree
 * CONFIG_HAVE_FUNCTION_GRAPH_TRACER=y
 * CONFIG_STACKTRACE=y
 
-In the kernel tree the ftrace is well explained, you should take a peek:
+In the kernel tree the ftrace is well written & explained, you should take a peek:
 
 https://www.kernel.org/doc/Documentation/trace/ftrace.txt
 
 ###### step 1:
-Ftrace holds a collection of traces on your system, choose among them:
+Ftrace offers a collection of traces in the kernel, choose among them:
 
 to view all traces type use cat /sys/kernel/debug/tracing/available_events .
 
@@ -24,10 +24,10 @@ to view all traces type use cat /sys/kernel/debug/tracing/available_events .
 
 Ftrace holds a long list of events, you can configure easily which event you would like to trace.
 
-The list of events are in the file available_events. 
+The list of events are in the file available_events (On my system there is 941 events types! ). 
 
 See for yourself via: cat /sys/kernel/debug/tracing/available_events
-those events are sorted by catergory.
+you can easily locate the event since the events are sorted by catergories i.e: kmem, syscalls,skb, net, napi,block etc.
 
 
 
