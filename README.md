@@ -24,10 +24,22 @@ to view all traces type use cat /sys/kernel/debug/tracing/available_events .
 
 Ftrace holds a long list of events, you can configure easily which event you would like to trace.
 
-The list of events are in the file available_events (On my system there is 941 events types! ). 
+The list of events are in the file available_events (On my system there are 941 events types! ). 
 
 See for yourself via: cat /sys/kernel/debug/tracing/available_events
-you can easily locate the event since the events are sorted by catergories i.e: kmem, syscalls,skb, net, napi,block etc.
+you can easily locate the event since the events are sorted by catergories i.e:
+
+kmem
+syscalls
+skb
+net
+napi
+block
+ext4
+ext3
+power
+signal
+timer
 
 
 
@@ -44,3 +56,4 @@ you can easily locate the event since the events are sorted by catergories i.e: 
    So now on every boot the kernel would reserve a sufficinent memory area for the kdump kernel.
    next time you would recieve a kernel crash, don't panic the crash dump would be stored in 
    **/var/crash** folder.
+
